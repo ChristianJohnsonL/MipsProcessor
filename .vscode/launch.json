@@ -8,8 +8,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": true,
-      "cwd": "c:/Users/chris/OneDrive/Documents/Coding Projects/MIPS_Processor/MipsProcessor",
-      "program": "c:/Users/chris/OneDrive/Documents/Coding Projects/MIPS_Processor/MipsProcessor/build/Debug/outDebug",
+      "cwd": "c:/Users/gerri/Documents/Github Projects/Mips/MipsProcessor",
+      "program": "c:/Users/gerri/Documents/Github Projects/Mips/MipsProcessor/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [
