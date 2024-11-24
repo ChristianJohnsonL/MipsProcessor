@@ -7,7 +7,7 @@
 using namespace std;
 
 const int EIGHT_BITS = 255;
-const int THIRTY_TWO_BITS = 32; //nTo denote limit in string size
+const int THIRTY_TWO_BITS = 32; //To denote limit in string size
 const string PROMPT_TO_DEC = "\nEnter up to 8 binary digits (0-1) ->";
 const string PROMPT_TO_HEX = "\nEnter up to 32 Binary digits (0-1) ->";
 
@@ -24,7 +24,7 @@ struct Node
 int DisplayOptions();
 
 // Decimal to Binary
-void DecToBi(Node*& node, Node*& head, Node*& tail);
+void DecToBi(Node*& node, Node*& tail);
 void BiToDec(string prompt);
 int GetDec(string prompt);
 
@@ -78,7 +78,7 @@ int main()
 		switch (choice)
 		{
 		case 1:
-			DecToBi(node, head, tail); // Decimal to Binary
+			DecToBi(node, tail); // Decimal to Binary
 			break;
 		case 2:
 			BiToDec(PROMPT_TO_DEC); // Binary to Decimal
