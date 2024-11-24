@@ -144,7 +144,7 @@ string EnterHex()
 	do
 	{
 		cin.ignore();
-		cin.clear(1000, '\n');
+		cin.ignore(1000, '\n');
 		cout << "\nEnter 1-8 hex numbers (0-9, A-F) ->";
 		cin >> hexNum;
 	} while (!CheckHex(hexNum));
@@ -164,7 +164,7 @@ void Divide(int &dividend, int divisor, int &quotient, int &remainder)
 	dividend = quotient;
 }
 
-void DecToBi(Node*& node, Node*& head, Node*& tail)
+void DecToBi(Node*& node, Node*& tail)
 {
 	int dividend, quotient, remainder; 
 	dividend = EnterDecimal();

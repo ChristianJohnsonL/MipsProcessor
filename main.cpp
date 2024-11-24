@@ -1,10 +1,10 @@
 #include <iostream>
+#include <string>
 #include "mips.h"
-#include "Conversions.cpp"
 
 using namespace std;
 
 int main()
 {
-
+    cout << "yeet";
 }
